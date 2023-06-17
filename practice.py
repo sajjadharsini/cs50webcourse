@@ -45,5 +45,18 @@ while while_number % 2 != 0:
     else:
         entered_numbers.append(while_number)
 
-print(f"enteres_numbers are: {entered_numbers}")
+print(f"entered_numbers are: {entered_numbers}")
 """
+
+"""
+#part 3
+#lists
+fib_index = int(input("enter a number: "))
+fibonatchi = [1, 1]
+
+for i in range(0, fib_index-2):
+   fibonatchi.append(fibonatchi[i] + fibonatchi[i+1])
+
+print(f"fibonatchi sequnce is: {fibonatchi}")
+"""
+
