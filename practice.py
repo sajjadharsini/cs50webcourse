@@ -64,3 +64,14 @@ print(f"fibonatchi sequnce is: {fibonatchi}")
 #tuple
 my_country_position = ("32°00'N", "53°00'E")
 """
+
+"""
+#set
+numbers = set()
+number_of_numbers = int(input("enter a number: "))
+
+for i in range(0, number_of_numbers):
+    numbers.add(int(input("enter a number: ")))
+
+print(f"sorted of your entered numbers is: {sorted(numbers)}")
+"""
