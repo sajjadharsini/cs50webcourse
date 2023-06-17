@@ -7,6 +7,8 @@
 6- and finally oop 
 """
 
+"""
+
 #part 1
 number = int(input("enter a number: "))
 
@@ -16,4 +18,32 @@ elif number % 2 != 0:
     print("your nimber is odd")
 elif number == 0:
     print("your number is zero")
+"""
 
+"""
+#part 2
+#for
+names = []
+number_of_names = int(input("enter number of the names: "))
+
+for i in range(0, number_of_names):
+    names.append(input("enter a name: "))
+
+print(f"names list is: {names}")
+"""
+
+"""
+#while
+while_number = 1
+entered_numbers = []
+while while_number % 2 != 0:
+    while_number = int(input("enter an even number: "))
+    if while_number == 0:
+        print("0 is not an even number!")
+        while_number += 1
+        entered_numbers.append(while_number - 1)
+    else:
+        entered_numbers.append(while_number)
+
+print(f"enteres_numbers are: {entered_numbers}")
+"""
