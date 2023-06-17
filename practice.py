@@ -60,3 +60,7 @@ for i in range(0, fib_index-2):
 print(f"fibonatchi sequnce is: {fibonatchi}")
 """
 
+"""
+#tuple
+my_country_position = ("32°00'N", "53°00'E")
+"""
