@@ -88,3 +88,16 @@ for i in range(0, dict_num):
     informations[name] = age
 print(informations)
 """
+
+"""
+#def
+def fibonatchi(number):
+    res = [1, 1]
+    for i in range(0, number-2):
+        res.append(res[i] + res[i+1])
+    return res
+
+number = int(input("enter a number: "))
+res = fibonatchi(number)
+print(f"your sequence is: {res}")
+"""
