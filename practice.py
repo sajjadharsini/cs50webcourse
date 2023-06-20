@@ -98,3 +98,25 @@ number = int(input("enter a number: "))
 res = fibonatchi(number)
 print(f"your sequence is: {res}")
 """
+
+#class
+"""
+class Math():
+    def __init__(self):
+        pass
+    def fibonatchi(self, number):
+        self.res = [1, 1]
+        for i in range(0, number-2):
+            self.res.append(self.res[i] + self.res[i+1])
+        return self.res
+    def factoriel(self, num):
+        self.tmp = 1
+        for i in range(1, num+1):
+            self.tmp *= i
+        return self.tmp
+
+
+number = 5
+a = Math().factoriel(number)
+print(a)
+"""
