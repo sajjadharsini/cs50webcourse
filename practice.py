@@ -75,3 +75,16 @@ for i in range(0, number_of_numbers):
 
 print(f"sorted of your entered numbers is: {sorted(numbers)}")
 """
+
+"""
+#dict
+
+informations = {}
+dict_num = int(input("how many name and age do you want to enter: "))
+
+for i in range(0, dict_num):
+    name = input("enter a name: ")
+    age = int(input("enter an age: "))
+    informations[name] = age
+print(informations)
+"""
