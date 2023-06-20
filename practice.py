@@ -1,15 +1,14 @@
-"""
-1- work with conditions 
-2- work with loops
-3- work with datastructures
-4- work with functions
-5- work with classes
-6- and finally oop 
-"""
 
-"""
+#1- work with conditions 
+#2- work with loops
+#3- work with datastructures
+#4- work with functions
+#5- work with classes
+#6- and finally oop 
+
 
 #part 1
+"""
 number = int(input("enter a number: "))
 
 if number % 2 == 0:
@@ -20,9 +19,9 @@ elif number == 0:
     print("your number is zero")
 """
 
-"""
 #part 2
 #for
+"""
 names = []
 number_of_names = int(input("enter number of the names: "))
 
@@ -32,8 +31,8 @@ for i in range(0, number_of_names):
 print(f"names list is: {names}")
 """
 
-"""
 #while
+"""
 while_number = 1
 entered_numbers = []
 while while_number % 2 != 0:
@@ -48,9 +47,9 @@ while while_number % 2 != 0:
 print(f"entered_numbers are: {entered_numbers}")
 """
 
-"""
 #part 3
 #lists
+"""
 fib_index = int(input("enter a number: "))
 fibonatchi = [1, 1]
 
@@ -60,13 +59,13 @@ for i in range(0, fib_index-2):
 print(f"fibonatchi sequnce is: {fibonatchi}")
 """
 
-"""
 #tuple
+"""
 my_country_position = ("32°00'N", "53°00'E")
 """
 
-"""
 #set
+"""
 numbers = set()
 number_of_numbers = int(input("enter a number: "))
 
@@ -76,9 +75,8 @@ for i in range(0, number_of_numbers):
 print(f"sorted of your entered numbers is: {sorted(numbers)}")
 """
 
-"""
 #dict
-
+"""
 informations = {}
 dict_num = int(input("how many name and age do you want to enter: "))
 
@@ -89,8 +87,8 @@ for i in range(0, dict_num):
 print(informations)
 """
 
-"""
 #def
+"""
 def fibonatchi(number):
     res = [1, 1]
     for i in range(0, number-2):
