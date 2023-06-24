@@ -120,3 +120,32 @@ number = 5
 a = Math().factoriel(number)
 print(a)
 """
+
+#OOP
+"""
+class Flight():
+
+    def __init__(self, capacity):
+        self.capacity = capacity
+        self.passengers = []
+        
+    def add_passenger(self, name):
+        if not self.limit_check():
+            return False
+        self.passengers.append(name)
+        return True
+
+    def limit_check(self):
+        return self.capacity - len(self.passengers)
+
+
+flight2 = Flight(3)
+
+humans = ["sajjad", "kevin", "astroboy", "mammad", "ebi"]
+
+for person in humans:
+    if flight2.add_passenger(person):
+        print(f"added {person} to flight succesfully!")
+    else:
+        print(f"-> ... failed to add {person} to flight! ... <-")
+"""
